@@ -45,6 +45,25 @@ let heroes = [
 ]
 
 let bttn = document.querySelectorAll(".moreInfo");
-let character = document.querySelectorAll(".heroContainer");
+let hero = document.querySelectorAll(".heroContainer");
 let searchinput = document.querySelector("input.input");
 let submit = document.querySelector(".submit");
+
+// using for loop to loop over each hero and listen for button click to display information about hero
+
+for (let i = 0; i < bttn.length; i++) {
+    bttn[i].addEventListener("click", function (e) {
+      e.preventDefault();
+    //   console.log(heroes[i].name);
+      let paragraph = document.createElement("p");
+      let bio = document.createTextNode(heroes[i].bio);
+      paragraph.appendChild(bio);
+      hero[i].appendChild(paragraph);
+    },
+
+    
+    // only listen for button click once
+    {once : true}
+    );
+}
+
