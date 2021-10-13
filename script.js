@@ -43,3 +43,8 @@ let heroes = [
     },
 
 ]
+
+let bttn = document.querySelectorAll(".moreInfo");
+let character = document.querySelectorAll(".heroContainer");
+let searchinput = document.querySelector("input.input");
+let submit = document.querySelector(".submit");
