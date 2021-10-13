@@ -2,23 +2,51 @@ body {
     background: rgb(253,187,45);
     background: linear-gradient(90deg, rgba(253,187,45,1) 41%, rgba(0,0,0,1) 80%);
     font-family: 'Scheherazade New', serif;
+    /* display: flex; */
 }
 
 h1 {
     text-align: center;
-    font-family: "Uncial Antiqua", cursive;
+    font-family: 'Scheherazade New', serif;
     font-size: 50px;
 }
   
 .garifunaHeroes {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) );;
+    grid-gap: 25px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
   
 .heroContainer {
-    background-color: white;
-    border: solid black 3px;
+    background: linear-gradient(117.76deg,
+        rgba(255, 255, 255, 0.7) -7.21%,
+        rgba(255, 255, 255, 0.5) 118.08%
+      );
+    border-radius: 10px;
     margin: 15px auto;
-    width: 425px;
+    width: 100%;
+    height: auto;
+
 }
+ h3 {
+     text-align: center;
+     font-size: 30px;
+ }
+
+img {
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
+}
+
+.moreInfo {
+    display: block;
+    margin: 10px auto;
+    font-family: 'Scheherazade New', serif;
+    font-size: 18px;
+}
+
