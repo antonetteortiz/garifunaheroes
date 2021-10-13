@@ -1,4 +1,24 @@
 body {
     background: rgb(253,187,45);
     background: linear-gradient(90deg, rgba(253,187,45,1) 41%, rgba(0,0,0,1) 80%);
+    font-family: 'Scheherazade New', serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Uncial Antiqua", cursive;
+    font-size: 50px;
+}
+  
+.garifunaHeroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.heroContainer {
+    background-color: white;
+    border: solid black 3px;
+    margin: 15px auto;
+    width: 425px;
 }
