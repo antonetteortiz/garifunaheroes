@@ -61,5 +61,11 @@ img {
 }
 
 p {
-    background-color: red;
+    font-family: 'Scheherazade New', serif;
+    line-height: 15px;
+    padding: 0 20px;
+}
+
+hr {
+    border: none;
 }
