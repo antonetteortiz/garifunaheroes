@@ -67,3 +67,14 @@ for (let i = 0; i < bttn.length; i++) {
     );
 }
 
+submit.addEventListener("click", function (e) {
+    e.preventDefault();
+    for (let i = 0; i < hero.length; i++) {
+      let heroName = hero[i].querySelector("h3").textContent;
+      if (heroName.toLowerCase().includes(searchinput.value.toLowerCase())) {
+        hero[i].style.display = "block";
+      } else {
+        hero[i].style.display = "none";
+      }
+    }
+  });
