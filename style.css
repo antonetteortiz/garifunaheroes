@@ -60,6 +60,10 @@ img {
     background: rgb(254, 230, 177, 0.2);
 }
 
+.restartBtn{
+    background: rgb(254, 230, 177, 0.2);
+}
+
 p {
     font-family: 'Scheherazade New', serif;
     line-height: 15px;
