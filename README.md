@@ -11,7 +11,7 @@ A library of Garifuna leaders, featuring members of the Garifuna community and a
 ## General Info 
 This project was created to display garifuna leaders and information about them.
 
-Visit live site here : [Garifuna Heroes]()
+Visit live site here : [Garifuna Heroes](https://garifunaheroes.vercel.app/?)
 
 
 ## 👷 Built with
